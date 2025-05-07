@@ -146,7 +146,7 @@
 <body>
 
   <button class="exit-button" onclick="exit()">
-    <i class="fas fa-sign-out-alt"></i> Keluar
+    <i class="fas fa-sign-out-alt"></i> Beranda
   </button>
 
   <div class="card">
@@ -172,7 +172,9 @@
 <script>
   function exit(){
     if(confirm('Apakah Anda Yakin Untuk Kembali Ke Beranda?.')){
-    window.location.href='https://madzz.vercel.app'}
+    window.location.href='https://madzz.vercel.app'} else{
+      alert('Anda Memutuskan Untuk Tidak Beralih Ke Beranda.')
+    }
   }
 </script>
 </html>
